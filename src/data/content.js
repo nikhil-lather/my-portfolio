@@ -117,7 +117,7 @@ export const projects = [
       "Architected the backend on the MVC pattern with custom error-handling middleware and an admin panel for user management.",
     ],
     live: "https://my-jobify-iirq.onrender.com",
-    repo: "",
+    repo: "https://github.com/nikhil-lather/nikhil-jobify",
   },
   {
     name: "Natours",
@@ -129,7 +129,7 @@ export const projects = [
       "Handled secure file uploads and image processing, and added rate limiting to strengthen API security.",
     ],
     live: "",
-    repo: "",
+    repo: "https://github.com/nikhil-lather/my-node-bootcamp/tree/main/07-natours",
   },
   {
     name: "ATS Optimizer",
@@ -142,7 +142,7 @@ export const projects = [
       "Developed full authentication with analysis history, delete functionality and dark/light mode; deployed on Render.",
     ],
     live: "https://ats-optimizer-ubwu.onrender.com",
-    repo: "",
+    repo: "https://github.com/nikhil-lather/ats-optimizer",
   },
   {
     name: "Notes Manager",
@@ -154,7 +154,7 @@ export const projects = [
       "Built with a simple REST backend and a lightweight React interface for uploading and reviewing notes.",
     ],
     live: "",
-    repo: "",
+    repo: "https://github.com/nikhil-lather/notes-manager",
   },
 ];
 

@@ -67,3 +67,9 @@ Vercel or Netlify: connect the repo, framework preset **Vite**, build command
 `npm run build`, output directory `dist`. Nothing else to configure.
 
 live at :: https://nikhil-lather.github.io/my-portfolio/
+
+to update ::
+git add .
+git commit -m "Update portfolio"
+git push
+npm run deploy
