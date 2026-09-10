@@ -65,3 +65,5 @@ you update the resume — keep the same filename and nothing else needs changing
 
 Vercel or Netlify: connect the repo, framework preset **Vite**, build command
 `npm run build`, output directory `dist`. Nothing else to configure.
+
+live at :: https://nikhil-lather.github.io/my-portfolio/
