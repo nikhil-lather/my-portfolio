@@ -129,7 +129,7 @@ export const projects = [
       "Handled secure file uploads and image processing, and added rate limiting to strengthen API security.",
     ],
     live: "",
-    repo: "https://github.com/nikhil-lather/my-node-bootcamp/tree/main/07-natours",
+    repo: "https://github.com/nikhil-lather/my-node-bootcamp",
   },
   {
     name: "ATS Optimizer",
