@@ -1,5 +1,3 @@
-// All the text on the site lives here.
-// Edit this file to update the portfolio — you should not need to touch the components.
 
 export const profile = {
   name: "Nikhil Lather",
