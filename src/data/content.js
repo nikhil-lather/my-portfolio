@@ -20,59 +20,26 @@ export const skills = [
   {
     group: "Frontend",
     items: [
-      "React.js",
       "JavaScript (ES6+)",
-      "HTML5",
-      "CSS3",
-      "Styled Components",
+      "React.js",
       "React Router",
+      "HTML",
+      "CSS",
+      "Styled Components",
       "Recharts",
-      "jsPDF",
     ],
   },
   {
     group: "Backend",
-    items: [
-      "Node.js",
-      "Express.js",
-      "REST API design",
-      "JWT authentication",
-      "Bcrypt",
-      "MVC architecture",
-      "Multer",
-    ],
+    items: ["Node.js", "Express.js", "REST APIs", "JWT", "bcrypt", "Multer"],
   },
   {
     group: "Database",
-    items: [
-      "MongoDB",
-      "Mongoose ODM",
-      "Query optimization",
-      "Aggregation pipeline",
-    ],
+    items: ["MongoDB", "Mongoose"],
   },
   {
     group: "Tools",
-    items: [
-      "Groq API (LLaMA 3.3)",
-      "PDF / DOCX parsing",
-      "Git",
-      "GitHub",
-      "Postman",
-      "VS Code",
-      "Render",
-      "NPM",
-    ],
-  },
-  {
-    group: "Concepts",
-    items: [
-      "Full stack development",
-      "AI integration",
-      "SaaS architecture",
-      "Authentication & authorization",
-      "CRUD operations",
-    ],
+    items: ["Git", "GitHub", "Postman", "VS Code", "Render", "Groq API"],
   },
 ];
 
@@ -105,16 +72,17 @@ export const experience = [
 
 // `live` and `repo` are optional — a button only shows when the link is filled in.
 // Paste your repo URLs into `repo` when you want the code buttons to appear.
+// `live` and `repo` are optional — a button only shows when the link is filled in.
+// Paste your repo URLs into `repo` when you want the code buttons to appear.
 export const projects = [
   {
     name: "MyJobify",
     kind: "Job tracking application",
-    stack: ["React", "Node.js", "Express", "MongoDB", "JWT"],
+    stack: ["React", "Node.js", "Express", "MongoDB"],
     points: [
-      "Engineered a production-ready full-stack job tracking app with complete CRUD functionality, deployed live on Render.",
-      "Implemented JWT authentication and role-based authorization, with REST APIs supporting filtering, sorting and pagination.",
-      "Delivered an analytics dashboard using area and bar charts (Recharts), plus a dark/light theme toggle.",
-      "Architected the backend on the MVC pattern with custom error-handling middleware and an admin panel for user management.",
+      "Full-stack app to add, edit, delete and track job applications, deployed on Render.",
+      "JWT login, search with filters, sorting and pagination.",
+      "Stats page with charts (Recharts) and a dark/light theme toggle.",
     ],
     live: "https://my-jobify-iirq.onrender.com",
     repo: "https://github.com/nikhil-lather/nikhil-jobify",
@@ -122,24 +90,22 @@ export const projects = [
   {
     name: "Natours",
     kind: "RESTful backend API for tour management",
-    stack: ["Node.js", "Express", "MongoDB", "Mongoose"],
+    stack: ["Node.js", "Express", "MongoDB"],
     points: [
-      "Designed a scalable REST API for a tour booking platform with advanced querying and pagination.",
-      "Implemented JWT authentication, role-based authorization, MVC architecture and global error-handling middleware.",
-      "Handled secure file uploads and image processing, and added rate limiting to strengthen API security.",
+      "REST API for tours with filtering, sorting and pagination.",
+      "JWT authentication, admin/user roles and a common error-handling middleware.",
     ],
     live: "",
     repo: "https://github.com/nikhil-lather/my-node-bootcamp",
   },
   {
     name: "ATS Optimizer",
-    kind: "AI-powered resume analyzer (SaaS)",
-    stack: ["React", "Node.js", "MongoDB", "Groq AI"],
+    kind: "AI resume analyzer",
+    stack: ["React", "Node.js", "Express", "MongoDB", "Groq API"],
     points: [
-      "Built a full-stack AI SaaS application that analyzes resumes against job descriptions to help users get past ATS filters.",
-      "Integrated Groq LLaMA 3.3 70B to generate match scores, missing-keyword analysis, improvement suggestions and tailored cover letters.",
-      "Implemented PDF/DOCX resume parsing, one-click PDF export of reports, a credit system and API rate limiting.",
-      "Developed full authentication with analysis history, delete functionality and dark/light mode; deployed on Render.",
+      "Web app that compares a resume with a job description and gives a match score, missing keywords and suggestions using the Groq LLaMA 3.3 API.",
+      "Users can upload PDF/DOCX resumes and download the analysis as a PDF.",
+      "Added login with JWT, a simple credit system to limit usage, and rate limiting on the API.",
     ],
     live: "https://ats-optimizer-ubwu.onrender.com",
     repo: "https://github.com/nikhil-lather/ats-optimizer",
