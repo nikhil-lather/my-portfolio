@@ -1,4 +1,3 @@
-
 export const profile = {
   name: "Nikhil Lather",
   role: "Full Stack MERN Developer",
@@ -11,7 +10,7 @@ export const profile = {
   location: "India",
   linkedin: "https://www.linkedin.com/in/nikhil-lather-3514272a9/",
   github: "https://github.com/nikhil-lather",
-  resume: "/Nikhil_Lather_Resume.pdf",
+  resume: `${import.meta.env.BASE_URL}Nikhil_Lather_Resume.pdf`,
 };
 
 export const skills = [
